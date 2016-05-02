@@ -1,0 +1,88 @@
+body,
+textarea,
+.chat-name,
+.chat-messages,
+.history,
+.chat-users,
+.users-list,
+.chat{
+	border: 0;
+	margin: 0;
+	padding: 0;
+	font-size:15px;
+	font: Verdana, sans-serif;
+}
+
+body,
+html,
+.chat{
+	width: 100%;
+	height: 100%;
+}
+
+.chat{
+	border: 20px solid #1a8cff;
+	box-sizing: border-box;
+	box-shadow: inset 0 0 5px #000000;
+}
+
+.history{
+	width: 80%;
+	height: 100%;
+	float: left;
+}
+
+.chat-name{
+	width: 100%;
+	height: 5%;
+	background: linear-gradient(red, yellow);
+	font-size: 3vh;
+	text-align: center;
+	color: #6666ff;
+	box-shadow: inset 0 0 8px red;
+}
+
+.chat-messages{
+	width: 100%;
+	height: 85%;
+	overflow-y: scroll;
+}
+
+textarea{
+	width: 100%;
+	height: 10%;
+	resize: none;
+	text-indent: 10px;
+	box-shadow:  inset 0 0 10px #3399ff;
+}
+
+.chat-users{
+	float: right;
+	width: 20%;
+	height: 100%;
+	overflow-y: scroll;
+	border-top: 5vh solid #e6ffe6;
+	box-sizing: border-box;
+	box-shadow: inset 0 0 5px #000000;
+}
+
+.users-list{
+	width: 100%; 
+	height: 100%;
+	text-align: center;
+	background: linear-gradient(#00cccc, #33ccff);
+	overflow-y: scroll;
+	box-shadow: inset 0 0 5px #000000;
+}
+
+.users-list option { 
+	color:   #744427;
+	font-weight: bold;
+	padding: 4px;
+  }
+
+.chat-message{
+  	padding:5px; 
+  	color:#cc6600;
+  }
+			
